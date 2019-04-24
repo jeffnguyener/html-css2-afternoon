@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
-
 body {
     background: #E1E7FA;
     font-family: "Muli", sans-serif;
@@ -8,15 +7,15 @@ body {
 .header {
     background: #fff;
     width: auto;
-    height: 100px;
+    height: 140px;
     margin: 12px;
     display: flex;
     justify-content: space-between;
-    
 }
+
 .navtitle {
     display: flex;
-} 
+}
 
 .icon {
     display: flex;
@@ -32,7 +31,7 @@ h5 {
 }
 
 .navtitle h1 {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 nav {
@@ -51,19 +50,20 @@ nav ul {
     padding: 100px;
     display: flex;
     justify-content: center;
-    align-content: space-between
+    align-content: space-between;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
+
 .links {
     display: flex;
     align-items: center;
-    width: 14em;
+    width: 13em;
     justify-content: space-between;
-
 }
+
 .subscribed {
     background-color: #0928CC;
     color: #fff;
@@ -83,4 +83,17 @@ nav ul li {
     font-family: cursive;
     height: 40px;
     width: 40px;
+    margin: 10px;
 }
+
+i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
