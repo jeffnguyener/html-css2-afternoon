@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+    background: #E1E7FA;
+    font-family: "Muli", sans-serif;
+}
+
+.header {
+    background: #fff;
+    width: auto;
+    height: 100px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navtitle {
+    display: flex;
+} 
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.company {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.navtitle h1 {
+    font-size: 20px;
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4em;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    width: 14em;
+    justify-content: space-between;
+
+}
+.subscribed {
+    background-color: #0928CC;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    height: 35px;
+    width: 115px;
+    border-radius: 50px;
+}
+
+.in-icon {
+    text-transform: lowercase;
+    background: black;
+    color: floralwhite;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    height: 40px;
+    width: 40px;
+}
