@@ -17,10 +17,6 @@ body {
     display: flex;
 }
 
-.icon h1 {
-    font-size: 20px;
-}
-
 .icon {
     display: flex;
     flex-direction: column;
