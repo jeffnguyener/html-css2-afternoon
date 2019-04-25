@@ -17,6 +17,10 @@ body {
     display: flex;
 }
 
+.icon h1 {
+    font-size: 20px;
+}
+
 .icon {
     display: flex;
     flex-direction: column;
@@ -28,19 +32,18 @@ body {
 
 h5 {
     margin: 0;
-}
-
-.navtitle h1 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 nav {
     text-transform: uppercase;
     display: flex;
+    font-size: 12px;
+    font-weight: 900;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 4em;
+    margin: 0 3em;
     width: 100%;
 }
 
@@ -91,9 +94,9 @@ i {
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-  }
+}
 
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-  }
+}
