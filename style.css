@@ -7,7 +7,7 @@ body {
 .header {
     background: #fff;
     width: 97.5%;
-    height: 1000px;
+    height: 2500px;
     margin: 12px;
     display: inline-flexbox;
     justify-content: space-between;
@@ -129,13 +129,17 @@ i {
     background-color: #F80151;
     color: #fff;
     text-transform: uppercase;
-    height: 65px;
-    width: 205px;
+    height: 60px;
+    width: 200px;
     border-radius: 50px;
     margin-left: 180px;
     display: flex;
     font-size: 15px;  
     margin-top: 50px;
-    padding: 24px;
+    padding: 22px;
+}
 
+.lower-content {
+    margin-top: 155px;
+    padding: 35px;
 }
