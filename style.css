@@ -6,11 +6,12 @@ body {
 
 .header {
     background: #fff;
-    width: auto;
-    height: 140px;
+    width: 97.5%;
+    height: 1000px;
     margin: 12px;
-    display: flex;
+    display: inline-flexbox;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navtitle {
@@ -40,7 +41,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 3em;
-    width: 100%;
+    width: 96%;
 }
 
 nav ul {
@@ -59,7 +60,7 @@ nav ul li {
 .links {
     display: flex;
     align-items: center;
-    width: 13em;
+    width: 16em;
     justify-content: space-between;
 }
 
@@ -82,7 +83,7 @@ nav ul li {
     font-family: cursive;
     height: 40px;
     width: 40px;
-    margin: 10px;
+    margin: 0;
 }
 
 i {
@@ -95,4 +96,46 @@ i {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.center-content {
+    background: #E1E7FA;
+    margin-left: 80px;
+    width: 95%;
+    height: 700px;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text1 {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 180px;
+    font-size: 55px;
+    
+}
+
+.text2 {
+    margin-left: 180px;
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+
+.report {
+    background-color: #F80151;
+    color: #fff;
+    text-transform: uppercase;
+    height: 65px;
+    width: 205px;
+    border-radius: 50px;
+    margin-left: 180px;
+    display: flex;
+    font-size: 15px;  
+    margin-top: 50px;
+    padding: 24px;
+
 }
