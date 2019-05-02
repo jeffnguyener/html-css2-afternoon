@@ -140,6 +140,25 @@ i {
 }
 
 .lower-content {
-    margin-top: 155px;
+    margin-top: 180px;
+    margin-left: 125px;
+    display: flex;
     padding: 35px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.text3 {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    /* float: left; */
+
+}
+
+.text4 {
+    margin-left: 180px;
+    font-size: 15px;
+    float: left;
 }
